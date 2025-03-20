@@ -1,12 +1,12 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { RamenList } from "@/feature/ramen/components/ramen-list";
-import { ramenShops } from "@/feature/ramen/data/ramen-data";
+import { RAMEN_SHOPS } from "@/feature/ramen/data/ramen-data";
 ---
 
 <Layout>
   <main class="container mx-auto py-8 px-4">
     <h1 class="grid justify-center my-8 text-6xl">🍜</h1>
-    <RamenList shops={ramenShops} />
+    <RamenList shops={RAMEN_SHOPS} />
   </main>
 </Layout>

@@ -1,6 +1,6 @@
 import type { RamenShop } from "../types/ramen-shop";
 
-export const ramenShops: RamenShop[] = [
+export const RAMEN_SHOPS: RamenShop[] = [
   // テンプレート
   // {
   //   name: "",
