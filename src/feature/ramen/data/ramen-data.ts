@@ -1,6 +1,6 @@
 import type { RamenShop } from "../types/ramen-shop";
 
-const RAMEN_PATH = "/ramen";
+const RAMEN_PATH = "/images/ramen";
 
 export const RAMEN_SHOPS: RamenShop[] = [
   {
